@@ -63,6 +63,16 @@ namespace OurGame.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap back {
+            get {
+                object obj = ResourceManager.GetObject("back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap background {
             get {
                 object obj = ResourceManager.GetObject("background", resourceCulture);
@@ -176,6 +186,16 @@ namespace OurGame.Properties {
         internal static System.Drawing.Bitmap UzfThlZSXrY {
             get {
                 object obj = ResourceManager.GetObject("UzfThlZSXrY", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zastavka {
+            get {
+                object obj = ResourceManager.GetObject("zastavka", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

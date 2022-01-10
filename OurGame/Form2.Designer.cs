@@ -42,11 +42,12 @@ namespace OurGame
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Solid Edge Stencil", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(246, 115);
+            this.button1.Location = new System.Drawing.Point(328, 142);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 65);
+            this.button1.Size = new System.Drawing.Size(167, 80);
             this.button1.TabIndex = 0;
             this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = false;
@@ -58,12 +59,12 @@ namespace OurGame
             this.ExitGame.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.ExitGame.FlatAppearance.BorderSize = 0;
             this.ExitGame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ExitGame.Font = new System.Drawing.Font("Solid Edge Stencil", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitGame.ForeColor = System.Drawing.Color.Red;
-            this.ExitGame.Location = new System.Drawing.Point(486, 8);
-            this.ExitGame.Margin = new System.Windows.Forms.Padding(2);
+            this.ExitGame.Location = new System.Drawing.Point(648, 10);
+            this.ExitGame.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ExitGame.Name = "ExitGame";
-            this.ExitGame.Size = new System.Drawing.Size(125, 61);
+            this.ExitGame.Size = new System.Drawing.Size(167, 75);
             this.ExitGame.TabIndex = 2;
             this.ExitGame.Text = "Exit";
             this.ExitGame.UseVisualStyleBackColor = false;
@@ -73,29 +74,31 @@ namespace OurGame
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Solid Edge Stencil", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(36, 24);
+            this.label1.Location = new System.Drawing.Point(48, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 35);
+            this.label1.Size = new System.Drawing.Size(30, 42);
             this.label1.TabIndex = 5;
             this.label1.Text = "-";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.BackgroundImage = global::OurGame.Properties.Resources.e9f1703c7aabbbb62377cba8a6f5984b_ce_4000x2133x0x60;
+            this.BackgroundImage = global::OurGame.Properties.Resources.zastavka;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(632, 325);
+            this.ClientSize = new System.Drawing.Size(843, 400);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ExitGame);
             this.Controls.Add(this.button1);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximumSize = new System.Drawing.Size(963, 591);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(1284, 727);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
